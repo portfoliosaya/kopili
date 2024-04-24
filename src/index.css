@@ -1,0 +1,441 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.text-logo {
+  font-family: "Alumni Sans Inline One", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: chocolate;
+}
+
+.text-menu {
+  font-family: "Alumni Sans Inline One", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: chocolate;
+  text-decoration: none;
+}
+.press-start {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alumni-sans inline one-regular {
+  font-family: "Alumni Sans Inline One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alumni-sans {
+  font-family: "Alumni Sans Inline One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* INI SECTION NAVBAR */
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px chocolate;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right a {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* INI SECTION HERO */
+
+#hero-left {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero-left p {
+  line-height: 30px;
+}
+
+.cta-container {
+  display: flex;
+}
+
+.cta-btn:not(:last-child) {
+  margin-right: 10px;
+}
+.cta-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 40px;
+  width: 200px;
+  box-shadow: 1px 1px 5px chocolate;
+  cursor: pointer;
+}
+
+.btn-chocolate {
+  background-color: chocolate;
+}
+
+.btn-gray {
+  background-color: gray;
+}
+.hero {
+  display: flex;
+  padding: 50px;
+  margin-right: 50px;
+}
+
+.hero-title {
+  margin-bottom: 40px;
+  font-size: 3.5em;
+}
+
+#hero-right img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* INI SECTION ABOUT */
+
+#about {
+  padding: 50px 100px;
+}
+
+.about-title-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.about-title {
+  text-align: center;
+  margin: 40px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid chocolate;
+}
+
+.card-about:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.card-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-box p {
+  line-height: 20px;
+}
+
+.btn-about {
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 1px 1px 5px gray;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.about-img-box {
+  width: 40%;
+}
+
+.about-img {
+  border-radius: 30px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.about-right .about-box {
+  order: 2;
+}
+
+/* INI SECTION SIGNATURE MENU */
+
+#signature-menu {
+  padding: 50px 100px;
+}
+
+.signature-title-box {
+  display: flex;
+  justify-content: center;
+}
+
+.signature-title {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid chocolate;
+}
+
+.signature-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-menu {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.card-menu:not(:last-child) {
+  margin-right: 40px;
+}
+
+.img-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  height: 300px;
+}
+
+.img-menu img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px chocolate;
+}
+
+.menu-info h4 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.menu-info p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+/* INI SECTION CONTACT DAN FOOTER */
+
+#contact {
+  height: 600px;
+  background-image: url(/src/img/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formkiri {
+  padding: 20px 40px;
+  background-color: gray;
+  opacity: 90%;
+  border-radius: 10px 0px 0px 10px;
+  color: white;
+  box-shadow: 1px 1px 1px 1px black;
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.formkanan {
+  padding: 20px 40px;
+  background-color: chocolate;
+  opacity: 90%;
+  width: 50%;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  box-shadow: 0px 1px 5px 0px black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.form-info:not(:first-child) {
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-info p {
+  margin-left: 3px;
+}
+
+.tampung {
+  display: flex;
+  height: 100px;
+  width: 700px;
+}
+
+footer {
+  background-color: chocolate;
+  padding: 1.5rem;
+  height: 20px;
+  border-top: 2px solid yellow;
+  text-align: center;
+}
+
+/* INI MEDIA QUERY */
+
+@media screen and(max-width:768px) {
+  .nav-right a:not(:last-child) {
+    margin-right: 20px;
+  }
+  .nav-right a {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero-right {
+    display: none;
+  }
+
+  .card-about {
+    flex-direction: column;
+  }
+
+  #about {
+    padding: 50px 40px;
+  }
+
+  .about-box {
+    order: 2;
+    width: 100%;
+  }
+
+  .about-box p {
+    text-align: justify;
+  }
+
+  .about-img-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-title {
+    margin-top: 60px;
+  }
+
+  #signature-menu {
+    padding: 20px;
+  }
+
+  .signature-container {
+    flex-wrap: wrap;
+  }
+
+  .card-menu:not(:last-child) {
+    margin: 0 40px;
+  }
+
+  .menu-info {
+    margin-bottom: 20px;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  #contact {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin-top: 80px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-title {
+    font-size: 40px;
+    margin-top: 80px;
+  }
+  .nav-right {
+    padding-right: 41px;
+    align-items: center;
+  }
+
+  .cta_container {
+    display: flex;
+  }
+
+  .cta-btn {
+    width: 100px;
+    height: 40px;
+  }
+
+  .about-title-box {
+    margin-top: 50px;
+  }
+
+  .tampung {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .formkanan {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .formkiri {
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #contact {
+    margin-top: 150px;
+  }
+  .div-subs {
+    padding-bottom: 20px;
+  }
+}

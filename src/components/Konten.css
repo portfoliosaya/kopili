@@ -1,0 +1,9 @@
+/* src/components/Section.css */
+.section {
+  padding: 2rem 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

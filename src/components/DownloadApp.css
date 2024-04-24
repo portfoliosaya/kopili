@@ -1,0 +1,39 @@
+/* src/components/DownloadApp.css */
+.download-app {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky; /* Pastikan properti ini ada */
+  top: 75px; /* Atur posisi sticky di bagian atas */
+  background-color: chocolate;
+  z-index: 10;
+  display: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #ddd;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Tampilkan hanya pada tampilan desktop */
+  .download-app {
+    display: block;
+  }
+}

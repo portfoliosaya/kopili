@@ -1,0 +1,11 @@
+.midle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 75px;
+}
+
+.midle iframe {
+  border: solid 7px gray;
+}
